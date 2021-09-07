@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vividmod",
+  "version": "1.0.0",
+  "name": "Vivid Mod",
+  "description": "Make your World more REALISTIC!!",
+  "authors": [
+    "SATAN666!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "icon": "assets/vividmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Cynosure.vividmod.VividMod"
+    ],
+    "client": [
+      "net.Cynosure.vividmod.VividClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
